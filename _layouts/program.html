@@ -1,0 +1,69 @@
+{% include partials/header.html %}
+{% include partials/banner.html %}
+
+{% assign nbr_days = site.data.program.days | size -%}
+
+{{ content }}
+
+<div class="container">
+  {%- for d in site.data.program.days -%}
+  {%- if nbr_days > 1 -%}
+  <!-- {%- include partials/get_day_hash.html %} -->
+
+  <div class="row bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h4>{{d.name}}</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <table class="ml-3">
+            {%- for event in d.talks -%}
+            <tr class="border-bottom">
+              <td class="bg-danger " style="width: 5px;"></td>
+              <td class="pl-2 pr-2">
+                <span class="badge badge-pill badge-secondary ">
+                  {{event.time_start}}
+                </span>
+              </td>
+              <td>
+                <p class="mb-0">
+                  <strong>{{event.name}}</strong>
+                </p>
+                <p class="font-weight-light  mb-0 mt-0">
+                  {%- for paper in site.talks -%} 
+                    {% if paper.name == event.name and paper.speakers %}
+                      {%- for speaker_name in paper.speakers -%}
+                        {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
+                        {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}
+                        <small>{{ speaker_short }}</small>
+                        {%- if forloop.last != true %}, {% endif -%}
+                      {%- endfor -%}
+                    {% endif %}
+                  {%- endfor -%}
+                </p>
+              </td>
+            </tr>
+            {%- endfor %}
+          </table> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  {%- endif %}
+  {%- endfor %}
+</div>
+
+<!-- {%- if site.conference.talks.main_categories %}
+    <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "Caption" }}</h5>
+      {%- for main_cat in site.conference.talks.main_categories %}
+        <div class="d-block d-sm-inline-block m-1 p-1 pl-2 pr-2 border-soft-{{ main_cat.color }} bg-soft-{{ main_cat.color }} font-weight-normal">
+          {{- main_cat.name -}}
+        </div>
+      {%- endfor -%}
+  {%- endif -%} -->
+
+{% include partials/footer.html %}

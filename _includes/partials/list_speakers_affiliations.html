@@ -1,0 +1,10 @@
+<div class="row">
+{%- for speaker_name in talk.speakers -%}
+  {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
+  {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}
+  <div class="col-sm-6">
+    <p class="font-weight-light mb-0 text-success">{{speaker_short}}</p>
+    <p class="font-weight-light text-secondary mt-0">{{ talk.affiliations[forloop.index0] }}</p>
+  </div>
+{%- endfor -%}
+</div>

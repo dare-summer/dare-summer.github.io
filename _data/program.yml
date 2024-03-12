@@ -1,0 +1,193 @@
+days:
+- name: Monday 11 September
+  abbr: Mo
+  date: 2023-09-11
+  talks:
+        - name: Registration & welcome coffee with the lecturers
+          time_start: '09:00'
+          time_end: '10:30'
+
+        - name: Introductory Lecture by Nuno Preguiça
+          title: The Quest for “Optimal” Conflict Resolution
+          time_start: '10:30'
+          time_end: '12:30'
+          num: lec1
+          type: keynote
+
+        - name: Lunch
+          time_start: '12:30'
+          time_end: '13:45'
+
+        - name: Lecture by Annette Bieniusa
+          title: Fault-tolerance in Message-passing Distributed Systems
+          time_start: '13:45'
+          time_end: '15:45'
+          num: lec2
+          type: keynote
+
+        - name: Coffee Break
+          time_start: '15:45'
+          time_end: '16:00'
+
+        - name: Lecture by Burcu Kulahcioglu Ozkan
+          title: Testing Distributed System Implementations
+          time_start: '16:00'
+          time_end: '18:00'
+          num: lec3
+          type: keynote
+
+        - name: Welcome reception
+          time_start: '18:30'
+          time_end: '20:00'
+
+- name: Tuesday 12 September
+  abbr: Tu
+  date: 2023-09-12
+  talks:
+        - name: Lecture by Carlos Baquero
+          title: "CRDTs: State-based approaches to high availability"
+          time_start: '08:30'
+          time_end: '10:30'
+          num: lec4
+          type: keynote
+
+
+        - name: Coffee Break
+          time_start: '10:30'
+          time_end: '10:45'
+
+        - name: Implementing a chat application with causal delivery in Elixir
+          time_start: '10:45'
+          time_end: '12:45'
+          num: prac1
+          type: demo
+
+        - name: Lunch
+          time_start: '12:45'
+          time_end: '13:45'
+
+        - name: Hands-on by Carlos Baquero
+          time_start: '13:45'
+          time_end: '15:00'
+          num: prac2
+          type: demo
+
+        - name: Guided visit to the Museum of Natural Sciences
+          time_start: '15:00'
+          time_end: '17:00'
+
+        - name: Dinner at Maison Antoine followed by a drink at The First Bar
+          time_start: '17:00'
+          time_end: '20:00'
+
+- name: Wednesday 13 September
+  abbr: Wed
+  date: 2023-09-13
+  talks:
+        - name: Lecture by Carla Ferreira
+          title: Verification with TLA+
+          time_start: '08:30'
+          time_end: '10:30'
+          num: lec5
+          type: keynote
+
+        - name: Coffee Break
+          time_start: '10:30'
+          time_end: '10:45'
+
+        - name: Verifying distributed protocols with TLA+
+          time_start: '10:45'
+          time_end: '12:45'
+          num: prac3
+          type: demo
+
+        - name: Lunch
+          time_start: '12:45'
+          time_end: '14:00'
+
+        - name:  Lecture by Martin Kleppmann
+          title: Why replicated lists are surprisingly hard
+          time_start: '14:00'
+          time_end: '16:00'
+          num: lec6
+          type: keynote
+
+        - name: Poster Session
+          time_start: '16:00'
+          time_end: '18:00'
+          num: psession1
+          type: demo
+
+- name: Thursday 14 September
+  abbr: Thu
+  date: 2023-09-14
+  talks:
+        - name: Lecture by Kevin De Porre
+          title: Verifying RDTs with VeriFx
+          time_start: '08:30'
+          time_end: '10:30'
+          num: lec7
+          type: keynote
+
+        - name: Coffee Break
+          time_start: '10:30'
+          time_end: '11:00'
+
+        - name: Hands-on by Kevin De Porre
+          time_start: '11:00'
+          time_end: '13:00'
+          num: prac4
+          type: demo
+
+        - name: Lunch
+          time_start: '13:00'
+          time_end: '14:15'
+
+        - name: Lecture by Marc Shapiro
+          title: A principled approach to programming distributed systems (part one)
+          time_start: '14:15'
+          time_end: '15:00'
+          num: lec8
+          type: keynote
+
+        - name: Guided tour at the Comics Art Museum
+          time_start: '15:00'
+          time_end: '17:00'
+
+        - name: Dinner at Le Rossini
+          time_start: '19:30'
+          time_end: '21:30'
+
+- name: Friday 15 September
+  abbr: Fri
+  date: 2023-09-15
+  talks:
+        - name: Lecture by Marc Shapiro
+          title: A principled approach to programming distributed systems (part two)
+          time_start: '09:15'
+          time_end: '10:00'
+          num: lec10
+          type: keynote
+          
+
+        - name: Coffee Break
+          time_start: '10:00'
+          time_end: '10:30'
+
+        - name: Lecture by Martin Kleppmann
+          title: Byzantine fault tolerance in highly available systems
+          time_start: '10:30'
+          time_end: '12:30'
+          num: lec9
+          type: keynote
+
+
+        - name: Lunch
+          time_start: '12:30'
+          time_end: '14:00'
+
+        - name: Research Projects & Closing
+          time_start: '14:00'
+          time_end: '16:00'
+          num: prac6
+          type: demo

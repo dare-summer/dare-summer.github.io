@@ -1,0 +1,32 @@
+</main>
+
+{%- include partials/modal_link.html -%}
+
+{%- if site.conference.live.streaming -%}
+{%- include partials/modal_live.html -%}
+{%- endif -%}
+
+<footer class="container">
+  <hr>
+  <p style="line-height: 1;">
+    <small class="font-weight-light">
+      DARE 2023 is an Erasmus+ Blended Intensive Programme funded by the European Union. Views and opinions
+      expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or
+      the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held
+      responsible for them.
+    </small>
+  </p>
+  <div class="text-center">
+    {% for image in site.data.sponsor_images.images %}
+    <a href="{{ image.url }}" target="_blank"><img src="{{ site.baseurl }}/assets/images/sponsor/{{ image.name }}"
+        style="width: 200px;" alt="{{ image.name }}"></a>
+    {% endfor %}
+  </div>
+</footer>
+
+<!-- Append build time to avoid caching of live program embedded in JavaScript file -->
+<script src="{{ site.baseurl }}/assets/js/main.js?t={{ site.time | date: " %s" }}"></script>
+
+</body>
+
+</html>

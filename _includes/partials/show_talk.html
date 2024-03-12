@@ -1,0 +1,9 @@
+{%- if talk.hide -%}
+<strong>{{ talk.name }}</strong>
+{%- else -%}
+<strong>
+  <a class="text-reset" data-target="#{{ talk.num }}" data-toggle="modal" role="button">
+    {{ talk.name }}
+  </a>
+</strong> 
+{%- endif -%}
