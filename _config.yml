@@ -1,9 +1,9 @@
-title: DARE 2023
-description: >- 
-  First Summer School on Distributed and Replicated Environments (DARE 2023) 
-subdescription: "From 11 to 15 September | Brussels | Belgium" 
-baseurl: "/dare23" # the subpath of your site, e.g. /blog
-url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+title: DARE 2024
+description: >-
+  Summer School on Distributed and Replicated Environments (DARE 2024)
+subdescription: "From 11 to 15 September | Darmstadt | Germany"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://dare-summer.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
 theme: jekyll-theme-conference
 
@@ -82,11 +82,8 @@ conference:
       - name: About
         relative_url: /about/
       - name: Attending 
-        menu:
-        - name: Application
-          relative_url: /registration/
-        - name: Venue
-          relative_url: /location/
+        relative_url: /attending/
+
       
       - name: Program
         menu: 
