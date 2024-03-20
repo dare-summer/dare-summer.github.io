@@ -8,25 +8,25 @@ layout: home
 
 <table class="table table-hover table-sm">
   <tbody>
-    <tr class="table-danger">
-      <td><s>Application deadline</s></td>
-      <td><s>{{ site.data.important_dates.submission_deadline }}</s></td>
+    <tr>
+      <td>Application deadline</td>
+      <td>15 May 2024</td>
     </tr>
-    <tr class="table-danger">
-      <td><s>Application notification</s></td>
-      <td><s>{{ site.data.important_dates.acceptance_notification }}</s></td>
+    <tr>
+      <td>Application notification</td>
+      <td>24 May 2024</td>
     </tr>
-    <tr class="table-danger">
-      <td scope="row"><s>Online Introductory Session</s></td>
-      <td><s>{{ site.data.important_dates.intro_session }}</s></td>
+    <tr>
+      <td scope="row">Online Introductory Session</td>
+      <td>Late Aug 2024</td>
     </tr>
-    <tr class="table-danger">
-      <td scope="row"><s>Summer School</s></td>
-      <td><s>{{ site.data.important_dates.conference }}</s></td>
+    <tr>
+      <td scope="row">Summer School</td>
+      <td>9 to 13 Sept 2024</td>
     </tr>
-    <tr class="table-danger">
-      <td scope="row"><s>Online Closing Session</s></td>
-      <td><s>{{ site.data.important_dates.closing_session }}</s></td>
+    <tr>
+      <td scope="row">Online Closing Session</td>
+      <td>Late Sept 2024</td>
     </tr>
   </tbody>
 </table>
