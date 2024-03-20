@@ -6,8 +6,10 @@ layout: home
 
 <hr>
 
-- Carlos Baquero, University of Porto, Portugal 
-- Annette Bieniusa, Technical University of Kaiserslautern, Germany 
-- Carla Ferreira, NOVA University of Lisbon, Portugal 
-- Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (coordinator) 
-- Martin Kleppmann, Technical University of Munich, Germany  
+- Carla Ferreira, NOVA University of Lisbon, Portugal
+- Carlos Baquero, University of Porto, Portugal
+- Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium
+- Esther Berghoff, Technische Universität Darmstadt
+- Ragnar Mogk, Technische Universität Darmstadt
+<!-- - Annette Bieniusa, Technical University of Kaiserslautern, Germany  -->
+<!-- - Martin Kleppmann, Technical University of Munich, Germany   -->
