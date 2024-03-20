@@ -1,9 +1,5 @@
 images:
-- name: "vub.jpg"
-  url: "https://vub.be"
-- name: "soft.png"
-  url: "https://soft.vub.ac.be/soft/"
-# - name: "EU.jpg"
-#   url: "#"
-# - name: "ElectricSQL-logo.png"
-#   url: " https://electric-sql.com"
+- name: "tuda_logo.png"
+  url: "https://www.tu-darmstadt.de/"
+- name: "logo-stg.svg"
+  url: "https://www.stg.tu-darmstadt.de/main_stg/index.en.jsp"
