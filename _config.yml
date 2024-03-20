@@ -87,14 +87,10 @@ conference:
 
       
       - name: Program
-        menu: 
-          - name: Overview
-            relative_url: /schedule/
-          - name: Detailed
-            relative_url: /program/
-      
-      - name: Speakers
-        relative_url: /speakers/
+        relative_url: /program/
+
+      # - name: Speakers
+      #   relative_url: /speakers/
       - name: Important Dates
         relative_url: /important_dates/
       - name: Organization
