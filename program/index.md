@@ -2,6 +2,15 @@
 layout: home
 ---
 
+
+### Calendar
+
+<div class="row">
+    <div class="col col-lg-12">
+        <div id="calendar"></div>
+    </div>
+</div>
+
 ### Program
 
 {% assign nbr_days = site.data.program.days | size -%}
