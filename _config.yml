@@ -125,12 +125,12 @@ conference:
       #   relative_url: /talks/
       # - name: Call for Posters and Demos
       #   relative_url: /posters/
-      - name: Registration
-        relative_url: /registration/
-      - name: Attending
-        relative_url: /location/
-      - name: Important Dates
-        relative_url: /important_dates/
+      # - name: Registration
+      #   relative_url: /registration/
+      # - name: Attending
+      #   relative_url: /location/
+      # - name: Important Dates
+      #   relative_url: /important_dates/
       # - name: Program
       #   relative_url: /program/
       #   disabled: true
