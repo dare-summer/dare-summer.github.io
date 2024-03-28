@@ -10,11 +10,15 @@ layout: home
   <tbody>
     <tr>
       <td>Application deadline</td>
-      <td>15 May 2024</td>
+      <td>29 May 2024</td>
     </tr>
     <tr>
       <td>Application notification</td>
-      <td>24 May 2024</td>
+      <td>7 June 2024</td>
+    </tr>
+    <tr>
+      <td>Registration deadline</td>
+      <td>28 June 2024</td>
     </tr>
     <tr>
       <td scope="row">Online Introductory Session</td>
