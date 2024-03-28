@@ -86,8 +86,8 @@ conference:
         relative_url: /attending/
 
       
-      - name: Program
-        relative_url: /program/
+      # - name: Program
+      #   relative_url: /program/
 
       # - name: Speakers
       #   relative_url: /speakers/
