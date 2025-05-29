@@ -5,7 +5,7 @@ layout: home
 
 <hr>
 
-<h2> Announcement: The deadline has been extended thanks to additional funding. </h2>
+<h2>For 2025 edition, please go to <a href="https://dare-lisbon.github.io">DARE 2025, September 8-12, Lisbon, Portugal</a>!</h2>
 
 <hr>
 
